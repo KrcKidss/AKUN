@@ -25,6 +25,32 @@ proxies:
     headers:
       Host: sgdo.ordervip.cloud
   udp: true
+- name: XL VIDIO BUG (E240V1 104.22.4.240)
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 0313f9d8-8171-463c-8001-8782936d55cd
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (E240V2 104.22.5.240 )
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 0313f9d8-8171-463c-8001-8782936d55cd
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
 - name: XL VIDIO BUG (img.email1.vidio.com)
   server: img.email1.vidio.com
   port: 443

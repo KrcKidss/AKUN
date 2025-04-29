@@ -6,113 +6,139 @@
 #   interval: 300
 #   health-check:
 #     enable: true
-#     url: http://www.gstatic.com/generate_2A04
+#     url: http://www.gstatic.com/generate_204
 #     interval: 30
 
 # https://raw.githubusercontent.com/KrcKidss/CONFIG/refs/heads/main/MAGIP-ID.yml
 
 proxies:
 - name: XL VIDIO BUG (E14 172.67.5.14)
+  type: trojan
   server: 172.67.5.14
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (E240V1 104.22.4.240)
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (E240V2 104.22.5.240 )
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (img.email1.vidio.com)
+  type: trojan
   server: img.email1.vidio.com
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (quiz.vidio.com)
+  type: trojan
   server: quiz.vidio.com
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (WC quiz.vidio.com)
+  type: trojan
   server: quiz.vidio.com
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: quiz.vidio.com.nusa.ordervip.cloud
+  sni: quiz.vidio.com.vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: quiz.vidio.com.nusa.ordervip.cloud
+      Host: quiz.vidio.com.vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (172.66.0.145)
+  type: trojan
   server: 172.66.0.145
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (104.20.9.155)
+  type: trojan
   server: 104.20.9.155
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG (img.email2.vidio.com)
+  type: trojan
   server: img.email2.vidio.com
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true
 - name: XL VIDIO BUG ( img.email3.vidio.com)
+  type: trojan
   server: img.email3.vidio.com
   port: 443
-  type: trojan
-  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: nusa.ordervip.cloud
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-trojan
     headers:
-      Host: nusa.ordervip.cloud
+      Host: vip-7.indoxray.top
   udp: true

@@ -6,7 +6,7 @@
 #   interval: 300
 #   health-check:
 #     enable: true
-#     url: http://www.gstatic.com/generate_204
+#     url: http://www.gstatic.com/generate_2A04
 #     interval: 30
 
 # https://raw.githubusercontent.com/KrcKidss/CONFIG/refs/heads/main/MAGIP-ID.yml
@@ -16,7 +16,7 @@ proxies:
   server: 172.67.5.14
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -29,7 +29,7 @@ proxies:
   server: img.email1.vidio.com
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -42,7 +42,7 @@ proxies:
   server: quiz.vidio.com
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -55,7 +55,7 @@ proxies:
   server: quiz.vidio.com
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: quiz.vidio.com.nusa.ordervip.cloud
   network: ws
@@ -68,7 +68,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -81,7 +81,7 @@ proxies:
   server: 104.20.9.155
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -94,7 +94,7 @@ proxies:
   server: img.email2.vidio.com
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws
@@ -107,7 +107,7 @@ proxies:
   server: img.email3.vidio.com
   port: 443
   type: trojan
-  password: ed48afdb-322f-4936-87a5-cca07a4f10fe
+  password: 71f65ac7-e0d5-4f18-a456-8e68d3e1efc8
   skip-cert-verify: true
   sni: nusa.ordervip.cloud
   network: ws

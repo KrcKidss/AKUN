@@ -1,7 +1,7 @@
 # TEMPLATE CONFIG GIT
 # SG:
 #   type: http
-#   url: https://raw.githubusercontent.com/KrcKidss/CONFIG/refs/heads/main/MAGIP-SG.yml
+#   url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 #   path: "./proxy_provider/MAGIP-SG.yaml"
 #   interval: 300
 #   health-check:
@@ -9,7 +9,7 @@
 #     url: http://www.gstatic.com/generate_204
 #     interval: 30
 
-# https://raw.githubusercontent.com/KrcKidss/CONFIG/refs/heads/main/MAGIP-SG.yml
+# https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
 - name: XL VIDIO BUG (E14 172.67.5.14)

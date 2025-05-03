@@ -16,7 +16,7 @@ proxies:
   server: 172.67.5.14
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -29,7 +29,7 @@ proxies:
   server: 104.22.4.240
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -42,7 +42,7 @@ proxies:
   server: 104.22.5.240
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -55,7 +55,7 @@ proxies:
   server: img.email1.vidio.com
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -68,7 +68,7 @@ proxies:
   server: quiz.vidio.com
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -81,7 +81,7 @@ proxies:
   server: quiz.vidio.com
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: quiz.vidio.com.sgdo.ordervip.cloud
   network: ws
@@ -94,7 +94,7 @@ proxies:
   server: 172.66.0.145
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -107,7 +107,7 @@ proxies:
   server: 104.20.9.155
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -120,7 +120,7 @@ proxies:
   server: img.email2.vidio.com
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws
@@ -133,7 +133,7 @@ proxies:
   server: img.email3.vidio.com
   port: 443
   type: trojan
-  password: 4547f67d-a6a2-41c7-9104-2f701b1b4f1c
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
   network: ws

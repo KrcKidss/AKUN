@@ -1,0 +1,16 @@
+BUG VIDIO
+
+img.email1.vidio.com
+104.17.159.243
+img.email2.vidio.com
+104.17.159.243
+img.email3.vidio.com
+104.17.156.243
+quiz.int.vidio.com
+104.22.4.240
+quiz.staging.vidio.com
+104.20.9.155
+ quiz.vidio.com
+104.22.4.240
+support.vidio.com
+162.159.140.147

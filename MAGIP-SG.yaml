@@ -1,248 +1,2433 @@
-# TEMPLATE CONFIG GIT
-# SG:
-#   type: http
-#   url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
-#   path: "./proxy_provider/MAGIP-SG.yaml"
-#   interval: 300
-#   health-check:
-#     enable: true
-#     url: http://www.gstatic.com/generate_204
-#     interval: 30
-
-# https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
-
 proxies:
-- name: XL VIDIO BUG (104.17.159.243)
-  type: trojan
-  server: 104.17.159.243
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.17.159.243)
-  type: trojan
-  server: 104.17.159.243
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.17.156.243)
-  type: trojan
+- name: XL VIDIO BUG (img.email3.vidio.com)
   server: 104.17.156.243
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.22.5.240)
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.20.9.155)
-  type: trojan
-  server: 104.20.9.155
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (172.67.5.14)
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (172.66.0.145)
-  type: trojan
-  server: 172.66.0.145
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (img.email1.vidio.com)
-  type: trojan
-  server: img.email1.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
 - name: XL VIDIO BUG (img.email2.vidio.com)
-  type: trojan
-  server: img.email2.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  server: 104.17.156.243
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (img.email3.vidio.com)
-  type: trojan
-  server: img.email3.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+- name: XL VIDIO BUG (img.email1.vidio.com)
+  server: 104.17.157.243
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (quiz.int.vidio.com)
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
 - name: XL VIDIO BUG (quiz.staging.vidio.com)
-  type: trojan
-  server: quiz.staging.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  server: 104.20.9.155
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
 - name: XL VIDIO BUG (quiz.int.vidio.com)
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  server: 104.22.5.240
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (quiz.vidio.com )
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+- name: XL VIDIO BUG (support.vidio.com)
+  server: 172.66.0.145
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (quiz.vidio.com)
+  server: 172.67.5.14
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (r.email2.vidio.com)
+  server: 1.179.112.197
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (r.email1.vidio.com)
+  server: 1.179.112.195
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (r.email3.vidio.com)
+  server: 1.179.120.3
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tv.alpha.vidio.com)
+  server: 2.18.121.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www-dsa.staging.vidio.com)
+  server: 2.18.121.19
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tv.staging.vidio.com)
+  server: 2.18.121.19
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (stickers.vidio.com)
+  server: 2.18.188.68
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (m.dev.vidio.com)
+  server: 10.252.38.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api.dev.vidio.com)
+  server: 10.252.38.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (dev.vidio.com)
+  server: 10.252.38.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www.dev.vidio.com)
+  server: 10.252.38.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (app-log-analyzer-api.staging.vidio.com)
+  server: 10.252.88.130
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api.vidio.com)
+  server: 23.50.131.22
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa.staging.vidio.com)
+  server: 23.55.236.67
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa.vidio.com)
+  server: 23.55.236.77
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www.vidio.com)
+  server: 23.216.77.76
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa-akamai.staging.vidio.com)
+  server: 34.8.8.6
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (license.staging.vidio.com)
+  server: 34.36.103.2
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (link.promo.vidio.com)
+  server: 34.36.107.183
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ongi9angbeef5iw8-tv-dsa.vidio.com)
+  server: 34.36.193.7
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (vidio-media-interopt.int.vidio.com)
+  server: 34.36.229.42
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (next.staging.vidio.com)
+  server: 34.36.255.56
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (iso.vidio.com)
+  server: 34.49.22.44
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ets-subtitle-generator-api.staging.vidio.com)
+  server: 34.49.62.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (next-akamai.staging.vidio.com)
+  server: 34.49.98.65
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ets-dashboard.staging.vidio.com)
+  server: 34.49.106.218
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (iso.staging.vidio.com)
+  server: 34.49.200.223
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (indosat.vidio.com)
+  server: 34.87.37.125
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (media.origin.dev.vidio.com)
+  server: 34.95.72.198
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (cdn-a.origin.dev.vidio.com)
+  server: 34.95.72.198
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (static-quiz.origin.int.vidio.com)
+  server: 34.95.85.215
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (dashboard-quiz.int.vidio.com)
+  server: 34.95.93.223
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (demo-etslive.int.vidio.com)
+  server: 34.95.101.136
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (airflow.vidio.com)
+  server: 34.95.108.145
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (static-origin.dev.vidio.com)
+  server: 34.96.79.191
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hydra.staging.vidio.com)
+  server: 34.96.108.148
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (static03.staging.vidio.com)
+  server: 34.98.97.95
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (dboreja4fu.int.vidio.com)
+  server: 34.98.125.177
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (aequ1kie7b.vidio.com)
+  server: 34.102.158.190
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tv-gke.staging.vidio.com)
+  server: 34.102.199.9
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (lasjk21bda21-tv-dsa.staging.vidio.com)
+  server: 34.102.199.9
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (thumbor-gke.dev.vidio.com)
+  server: 34.102.200.171
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (peehain1ee.vidio.com)
+  server: 34.107.135.0
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ckp66utx.vidio.com)
+  server: 34.107.146.29
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api-ns.int.vidio.com)
+  server: 34.107.179.150
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tst-aqcdqr1234.staging.vidio.com)
+  server: 34.107.198.29
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gmvpwepkj3.int.vidio.com)
+  server: 34.107.223.52
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (license.vidio.com)
+  server: 34.110.165.83
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (staging-plenty.vidio.com)
+  server: 34.110.192.133
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api-ns.vidio.com)
+  server: 34.111.60.67
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (blog.staging.vidio.com)
+  server: 34.111.113.121
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (plenty.vidio.com)
+  server: 34.111.228.151
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (blog.vidio.com)
+  server: 34.111.253.69
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (w3hh46zt.staging.vidio.com)
+  server: 34.117.25.214
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (etslive-server.vidio.com)
+  server: 34.117.26.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hermes.staging.vidio.com)
+  server: 34.117.150.41
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (jjndi0k9m2.int.vidio.com)
+  server: 34.117.162.195
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (telkomsel.vidio.com)
+  server: 34.117.180.47
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (thumbor-gke.staging.vidio.com)
+  server: 34.117.204.147
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (8hjrjnvoc3.vidio.com)
+  server: 34.117.205.16
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ovm.staging.vidio.com)
+  server: 34.117.233.20
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hermes.vidio.com)
+  server: 34.117.241.252
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (scm-iso.vidio.com)
+  server: 34.120.17.79
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (live.vidio.com)
+  server: 34.120.25.176
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (chat.vidio.com)
+  server: 34.120.25.176
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (indosat.staging.vidio.com)
+  server: 34.120.27.3
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (telkomsel.staging.vidio.com)
+  server: 34.120.27.3
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (posthog-staging.vidio.com)
+  server: 34.120.57.123
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tmbubjryhvewc-origin-quiz-staging.vidio.com)
+  server: 34.120.74.32
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (wp.staging.vidio.com)
+  server: 34.120.178.87
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa.canary.prod.vidio.com)
+  server: 34.120.198.254
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (lite.vidio.com)
+  server: 34.120.218.177
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (dsa-web-iedu4coavee0poh1.vidio.com)
+  server: 34.120.218.177
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (chatbot-api.staging.vidio.com)
+  server: 34.128.140.145
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (scm-iso.staging.vidio.com)
+  server: 34.128.160.94
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (next.vidio.com)
+  server: 34.149.73.14
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (etslive-server.staging.vidio.com)
+  server: 34.149.114.137
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (c.vidio.com)
+  server: 34.149.115.28
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (whisper.staging.vidio.com)
+  server: 34.149.162.177
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hermes-cms.staging.vidio.com)
+  server: 34.149.171.88
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa-akamai.vidio.com)
+  server: 34.149.178.46
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (chatbot-api.vidio.com)
+  server: 34.149.213.76
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (wp.vidio.com)
+  server: 34.160.62.245
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (whisper.vidio.com)
+  server: 34.160.82.127
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (design.vidio.com)
+  server: 34.160.116.89
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ets-dashboard.vidio.com)
+  server: 34.160.129.207
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (chatbot.vidio.com)
+  server: 34.160.245.6
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (jifoer83jfei03.vidio.com)
+  server: 35.186.224.174
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (vidio-web-prod-media-001-lb.vidio.com)
+  server: 35.186.228.30
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (live.staging.vidio.com)
+  server: 35.186.230.123
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (thumbor-gke.prod.vidio.com)
+  server: 35.186.232.49
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (airflow.int.vidio.com)
+  server: 35.190.6.114
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (psug4xogrt.int.vidio.com)
+  server: 35.190.23.193
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (gandiwa.prod.vidio.com)
+  server: 35.190.31.252
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (lite.staging.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (test.int.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api.staging.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (m.staging.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (staging.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www.staging.vidio.com)
+  server: 35.190.83.167
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ocs-inventory.vidio.com)
+  server: 35.190.91.99
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (contract-testing.staging.vidio.com)
+  server: 35.201.87.32
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hoppscotch.staging.vidio.com)
+  server: 35.201.87.32
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (api-docs.vidio.com)
+  server: 35.201.87.32
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (llhls.staging.vidio.com)
+  server: 35.201.93.59
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (hgktpzzg3r0e.vidio.com)
+  server: 35.227.198.227
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (etslive-app.vidio.com)
+  server: 35.227.202.147
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (careers.vidio.com)
+  server: 35.241.0.250
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (iap.api.staging.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (m.int.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (m.iap.staging.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www.iap.staging.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (int.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (iap.staging.vidio.com)
+  server: 35.241.18.33
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (kmm.docs.vidio.com)
+  server: 35.241.56.225
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (ets-subtitle-generator-api.vidio.com)
+  server: 35.244.131.47
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (cxvpemlvbgo-origin-quiz-dsa.int.vidio.com)
+  server: 35.244.147.166
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (static02.staging.vidio.com)
+  server: 35.244.184.31
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (yz3nq6kn0m.int.vidio.com)
+  server: 35.244.184.31
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tee3ahl2ch.vidio.com)
+  server: 35.244.220.18
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (int.live.vidio.com)
+  server: 35.244.250.135
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (careers.staging.vidio.com)
+  server: 52.223.53.203
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (livestreaming-swiftserve-etslive.vidio.com)
+  server: 58.27.5.110
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (email1.vidio.com)
+  server: 77.32.151.177
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (email2.vidio.com)
+  server: 77.32.151.201
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (m.vidio.com)
+  server: 88.221.132.209
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (tv.vidio.com)
+  server: 96.16.53.137
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (livestreaming-fashion.vidio.com)
+  server: 115.164.13.243
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (livestreaming-etslive.vidio.com)
+  server: 122.11.168.9
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (kpi.vidio.com)
+  server: 142.250.150.121
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (inside.vidio.com)
+  server: 142.250.181.243
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (app.vidio.com)
+  server: 151.101.65.195
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
   udp: true
 - name: XL VIDIO BUG (nontontv.vidio.com)
-  type: trojan
-  server: nontontv.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  server: 172.67.5.14
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (support.vidio.com )
-  type: trojan
-  server: support.vidio.com
-  port: 443
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+- name: XL VIDIO BUG (hj9795.m.int-www.about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (www.about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (confluence.2016.winey-m.ppmail1.infinity-create-jpww.about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (edirww.about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (toronto.pocoapocoom.sdsaymentww.about.vidio.com)
+  server: 192.0.78.158
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (marketwwwww.about.vidio.com)
+  server: 192.0.78.224
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (btestollocationww.about.vidio.com)
+  server: 192.0.78.224
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (prodpmyww.about.vidio.com)
+  server: 192.0.78.224
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (l107-vi-n15.vidio.about.vidio.com)
+  server: 192.0.78.224
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (audiostreamserver.vidio.com)
+  server: 202.158.9.230
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (email3.vidio.com)
+  server: 212.146.246.165
+  port: 80
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vip-8.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
   udp: true

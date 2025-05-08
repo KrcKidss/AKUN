@@ -10,7 +10,7 @@ quiz.int.vidio.com
 104.22.4.240
 quiz.staging.vidio.com
 104.20.9.155
- quiz.vidio.com
+quiz.vidio.com
 104.22.4.240
 support.vidio.com
 162.159.140.147

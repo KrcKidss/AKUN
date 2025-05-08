@@ -12,10 +12,10 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
-- name: XL VIDIO BUG (E14 172.67.5.14)
-  server: 172.67.5.14
-  port: 443
+- name: XL VIDIO BUG (104.17.159.243)
   type: trojan
+  server: 104.17.159.243
+  port: 443
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -25,10 +25,10 @@ proxies:
     headers:
       Host: sgdo.ordervip.cloud
   udp: true
-- name: XL VIDIO BUG (E240V1 104.22.4.240)
-  server: 104.22.4.240
-  port: 443
+- name: XL VIDIO BUG (104.17.159.243)
   type: trojan
+  server: 104.17.159.243
+  port: 443
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -38,10 +38,23 @@ proxies:
     headers:
       Host: sgdo.ordervip.cloud
   udp: true
-- name: XL VIDIO BUG (E240V2 104.22.5.240 )
+- name: XL VIDIO BUG (104.17.156.243)
+  type: trojan
+  server: 104.17.156.243
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (104.22.5.240)
+  type: trojan
   server: 104.22.5.240
   port: 443
-  type: trojan
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -51,49 +64,10 @@ proxies:
     headers:
       Host: sgdo.ordervip.cloud
   udp: true
-- name: XL VIDIO BUG (img.email1.vidio.com)
-  server: img.email1.vidio.com
-  port: 443
+- name: XL VIDIO BUG (104.22.4.240)
   type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (quiz.vidio.com)
-  server: quiz.vidio.com
+  server: 104.22.4.240
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (WC quiz.vidio.com)
-  server: quiz.vidio.com
-  port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
-  skip-cert-verify: true
-  sni: quiz.vidio.com.sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: quiz.vidio.com.sgdo.ordervip.cloud
-  udp: true
-- name: XL VIDIO BUG (172.66.0.145)
-  server: 172.66.0.145
-  port: 443
-  type: trojan
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -104,9 +78,61 @@ proxies:
       Host: sgdo.ordervip.cloud
   udp: true
 - name: XL VIDIO BUG (104.20.9.155)
+  type: trojan
   server: 104.20.9.155
   port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (104.22.4.240)
   type: trojan
+  server: 104.22.4.240
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (172.67.5.14)
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (172.66.0.145)
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (img.email1.vidio.com)
+  type: trojan
+  server: img.email1.vidio.com
+  port: 443
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -117,9 +143,9 @@ proxies:
       Host: sgdo.ordervip.cloud
   udp: true
 - name: XL VIDIO BUG (img.email2.vidio.com)
+  type: trojan
   server: img.email2.vidio.com
   port: 443
-  type: trojan
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud
@@ -129,10 +155,88 @@ proxies:
     headers:
       Host: sgdo.ordervip.cloud
   udp: true
-- name: XL VIDIO BUG ( img.email3.vidio.com)
+- name: XL VIDIO BUG (img.email3.vidio.com)
+  type: trojan
   server: img.email3.vidio.com
   port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (quiz.int.vidio.com)
   type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (quiz.staging.vidio.com)
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (quiz.int.vidio.com)
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (quiz.vidio.com )
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (nontontv.vidio.com)
+  type: trojan
+  server: nontontv.vidio.com
+  port: 443
+  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  skip-cert-verify: true
+  sni: sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+- name: XL VIDIO BUG (support.vidio.com )
+  type: trojan
+  server: support.vidio.com
+  port: 443
   password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
   skip-cert-verify: true
   sni: sgdo.ordervip.cloud

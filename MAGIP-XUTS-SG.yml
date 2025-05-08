@@ -12,133 +12,179 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
-- name: XL VIDIO BUG (E14 172.67.5.14)
-  server: 172.67.5.14
+- name: XL XUTS BUG (WS ava.game.naver.com)
+  server: ava.game.naver.com
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (E240V1 104.22.4.240)
-  server: 104.22.4.240
+- name: XL XUTS BUG (WS df.game.naver.com)
+  server: df.game.naver.com
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (E240V2 104.22.5.240 )
-  server: 104.22.5.240
+- name: XL XUTS BUG (WS investor.fb.com)
+  server: investor.fb.com
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (img.email1.vidio.com)
-  server: img.email1.vidio.com
+- name: XL XUTS BUG (WC ava.game.naver.com)
+  server: ava.game.naver.com
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: ava.game.naver.com.vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (quiz.vidio.com)
-  server: quiz.vidio.com
+- name: XL XUTS BUG (WC investor.fb.com)
+  server: investor.fb.com
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: investor.fb.com.vip-8.indoxray.top
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: investor.fb.com.vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (WC quiz.vidio.com)
-  server: quiz.vidio.com
+- name: XL XUTS (SNI ive-upload.instagram.com)
+  server: vip-8.indoxray.top
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: quiz.vidio.com.sgdo.ordervip.cloud
+  servername: ive-upload.instagram.com
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: quiz.vidio.com.sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (172.66.0.145)
-  server: 172.66.0.145
+- name: XL XUTS (SNI graph.instagram.com)
+  server: vip-8.indoxray.top
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: graph.instagram.com
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (104.20.9.155)
-  server: 104.20.9.155
+- name: XL XUTS (SNI z-p15.www.instagram.com)
+  server: vip-8.indoxray.top
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: z-p15.www.instagram.com
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG (img.email2.vidio.com)
-  server: img.email2.vidio.com
+- name: XL XUTS (SNI graph.facebook.com)
+  server: vip-8.indoxray.top
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: graph.facebook.com
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true
-- name: XL VIDIO BUG ( img.email3.vidio.com)
-  server: img.email3.vidio.com
+- name: XL XUTS (SNI opensource.fb.com)
+  server: vip-8.indoxray.top
   port: 443
-  type: trojan
-  password: 1b789391-80d1-4bc8-ae95-39865c94a0f4
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sgdo.ordervip.cloud
+  servername: opensource.fb.com
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /websocket-vmess
     headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
+  udp: true
+- name: XL XUTS (SNI status.fb.com)
+  server: vip-8.indoxray.top
+  port: 443
+  type: vmess
+  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: status.fb.com
+  network: ws
+  ws-opts:
+    path: /websocket-vmess
+    headers:
+      Host: vip-8.indoxray.top
   udp: true

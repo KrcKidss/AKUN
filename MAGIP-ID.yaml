@@ -12,9 +12,100 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-ID.yaml
 
 proxies:
+- name: XL VIDIO BUG (E14 172.67.5.14)
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (E240V1 104.22.4.240)
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (E240V2 104.22.5.240 )
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
 - name: XL VIDIO BUG (img.email1.vidio.com)
   type: trojan
   server: img.email1.vidio.com
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (quiz.vidio.com)
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (WC quiz.vidio.com)
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: quiz.vidio.com.vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: quiz.vidio.com.vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (E145 172.66.0.145)
+  type: trojan
+  server: 172.66.0.145
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (quiz.staging.vidio.com)
+  type: trojan
+  server: 104.20.9.155
   port: 443
   password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
@@ -38,204 +129,9 @@ proxies:
     headers:
       Host: vip-7.indoxray.top
   udp: true
-- name: XL VIDIO BUG (img.email3.vidio.com)
+- name: XL VIDIO BUG ( img.email3.vidio.com)
   type: trojan
   server: img.email3.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.int.vidio.com)
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.staging.vidio.com)
-  type: trojan
-  server: quiz.staging.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.int.vidio.com)
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.vidio.com )
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (nontontv.vidio.com)
-  type: trojan
-  server: nontontv.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (support.vidio.com )
-  type: trojan
-  server: support.vidio.com
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.159.243)
-  type: trojan
-  server: 104.17.159.243
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.159.243)
-  type: trojan
-  server: 104.17.159.243
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.156.243)
-  type: trojan
-  server: 104.17.156.243
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.5.240)
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.20.9.155)
-  type: trojan
-  server: 104.20.9.155
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (172.67.5.14)
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
-  skip-cert-verify: true
-  sni: vip-7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-trojan
-    headers:
-      Host: vip-7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (172.66.0.145)
-  type: trojan
-  server: 172.66.0.145
   port: 443
   password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true

@@ -83,7 +83,7 @@ proxies:
   type: trojan
   password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: ive-upload.instagram.com
+  sni: live-upload.instagram.com
   network: ws
   ws-opts:
     path: /websocket-trojan

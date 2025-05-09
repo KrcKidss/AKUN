@@ -77,7 +77,7 @@ proxies:
     headers:
       Host: investor.fb.com.vip-7.indoxray.top
   udp: true
-- name: XL XUTS (SNI ive-upload.instagram.com)
+- name: XL XUTS (SNI live-upload.instagram.com)
   server: vip-7.indoxray.top
   port: 443
   type: trojan

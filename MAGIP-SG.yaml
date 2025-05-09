@@ -92,7 +92,7 @@ proxies:
     headers:
       Host: investor.fb.com.vip-8.indoxray.top
   udp: true
-- name: XL XUTS (SNI ive-upload.instagram.com)
+- name: XL XUTS (SNI live-upload.instagram.com)
   server: vip-8.indoxray.top
   port: 443
   type: vmess
@@ -101,7 +101,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ive-upload.instagram.com
+  servername: live-upload.instagram.com
   network: ws
   ws-opts:
     path: /websocket-vmess

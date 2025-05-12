@@ -12,7 +12,7 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/ISAT-FUN.yaml
 
 proxies:
-- name: XL VIDIO BUG (WS investors.spotify.com)
+- name: ISAT FUN BUG (WS investors.spotify.com)
   type: trojan
   server: investors.spotify.com
   port: 443
@@ -25,7 +25,7 @@ proxies:
     headers:
       Host: vip-7.indoxray.top
   udp: true
-- name: XL VIDIO BUG (WS cache.netflix.com)
+- name: ISAT FUN BUG (WS cache.netflix.com)
   type: trojan
   server: cache.netflix.com
   port: 443
@@ -38,7 +38,7 @@ proxies:
     headers:
       Host: vip-7.indoxray.top
   udp: true
-- name: XL VIDIO BUG (WC investors.spotify.com)
+- name: ISAT FUN BUG (WC investors.spotify.com)
   type: trojan
   server: investors.spotify.com
   port: 443
@@ -51,7 +51,7 @@ proxies:
     headers:
       Host: investors.spotify.com.vip-7.indoxray.top
   udp: true
-- name: XL VIDIO BUG (WC cache.netflix.com)
+- name: ISAT FUN BUG (WC cache.netflix.com)
   type: trojan
   server: cache.netflix.com
   port: 443
@@ -64,7 +64,7 @@ proxies:
     headers:
       Host: cache.netflix.com.vip-7.indoxray.top
   udp: true
-- name: XL XUTS (SNI investors.spotify.com)
+- name: ISAT FUN (SNI investors.spotify.com)
   server: vip-7.indoxray.top
   port: 443
   type: trojan
@@ -77,7 +77,7 @@ proxies:
     headers:
       Host: vip-7.indoxray.top
   udp: true
-- name: XL XUTS (SNI cache.netflix.com)
+- name: ISAT FUN (SNI cache.netflix.com)
   server: vip-7.indoxray.top
   port: 443
   type: trojan

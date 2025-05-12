@@ -2,7 +2,7 @@
 # ID:
 # type: http
 # url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/ISAT-FUN.yaml
-# path: "./proxy_provider/MAGIP-ID.yaml"
+# path: ./proxy_provider/MAGIP-ID.yaml
 # interval: 300
 # health-check:
 #   enable: true
@@ -12,71 +12,20 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/ISAT-FUN.yaml
 
 proxies:
-- name: ISAT FUN BUG (WC cache.netflix.com)
-  server: cache.netflix.com
-  port: 443
-  type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: cache.netflix.com.vip-8.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: cache.netflix.com.vip-8.indoxray.top
-  udp: true
-- name: ISAT FUN BUG (WC investors.spotify.com)
+- name: XL VIDIO BUG (WS investors.spotify.com)
+  type: trojan
   server: investors.spotify.com
   port: 443
-  type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
-  alterId: 0
-  cipher: auto
-  tls: true
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  servername: investors.spotify.com.vip-8.indoxray.top
+  sni: vip-7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-vmess
+    path: /websocket-trojan
     headers:
-      Host: investors.spotify.com.vip-8.indoxray.top
+      Host: vip-7.indoxray.top
   udp: true
-- name: ISAT FUN (WC cache.netflix.com)
-  server: vip-8.indoxray.top
-  port: 443
-  type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: cache.netflix.com
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: vip-8.indoxray.top
-  udp: true
-- name: ISAT FUN (WC investors.spotify.com)
-  server: vip-8.indoxray.top
-  port: 443
-  type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: investors.spotify.com
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: vip-8.indoxray.top
-  udp: true
-- name: ISAT FUN BUG (WS cache.netflix.com)
+- name: XL VIDIO BUG (WS cache.netflix.com)
   type: trojan
   server: cache.netflix.com
   port: 443
@@ -89,13 +38,52 @@ proxies:
     headers:
       Host: vip-7.indoxray.top
   udp: true
-- name: ISAT FUN BUG (WS investors.spotify.com)
+- name: XL VIDIO BUG (WC investors.spotify.com)
   type: trojan
   server: investors.spotify.com
   port: 443
   password: 594d1919-99cd-4002-aec3-0c07180b6c46
   skip-cert-verify: true
-  sni: vip-7.indoxray.top
+  sni: investors.spotify.com.vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: investors.spotify.com.vip-7.indoxray.top
+  udp: true
+- name: XL VIDIO BUG (WC cache.netflix.com)
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: cache.netflix.com.vip-7.indoxray.top
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: cache.netflix.com.vip-7.indoxray.top
+  udp: true
+- name: XL XUTS (SNI investors.spotify.com)
+  server: vip-7.indoxray.top
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: investors.spotify.com
+  network: ws
+  ws-opts:
+    path: /websocket-trojan
+    headers:
+      Host: vip-7.indoxray.top
+  udp: true
+- name: XL XUTS (SNI cache.netflix.com)
+  server: vip-7.indoxray.top
+  port: 443
+  type: trojan
+  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  skip-cert-verify: true
+  sni: cache.netflix.com
   network: ws
   ws-opts:
     path: /websocket-trojan

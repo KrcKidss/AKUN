@@ -16,287 +16,287 @@ proxies:
   server: img.email1.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (img.email2.vidio.com)
   server: img.email2.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (img.email3.vidio.com)
   server: img.email3.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (quiz.int.vidio.com)
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (quiz.staging.vidio.com)
   server: quiz.staging.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (quiz.int.vidio.com)
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (quiz.vidio.com )
   server: quiz.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (nontontv.vidio.com)
   server: nontontv.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (support.vidio.com )
   server: support.vidio.com
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.17.159.243)
   server: 104.17.159.243
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.17.159.243)
   server: 104.17.159.243
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.17.156.243)
   server: 104.17.156.243
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.22.5.240)
   server: 104.22.5.240
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.22.4.240)
   server: 104.22.4.240
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.20.9.155)
   server: 104.20.9.155
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (104.22.4.240)
   server: 104.22.4.240
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (172.67.5.14)
   server: 172.67.5.14
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true
 - name: XL VIDIO BUG (172.66.0.145)
   server: 172.66.0.145
   port: 443
   type: vmess
-  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
+  uuid: d0fd29e3-37ef-4aa9-8df6-48eacd94f571
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vip-18.indoxray.top
+  servername: sg.gratis.us.kg
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-18.indoxray.top
+      Host: sg.gratis.us.kg
   udp: true

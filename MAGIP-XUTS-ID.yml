@@ -1,157 +1,191 @@
 # TEMPLATE CONFIG GIT
-# ID:
-# type: http
-# url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-ID.yaml
-# path: "./proxy_provider/MAGIP-ID.yaml"
-# interval: 300
-# health-check:
-#   enable: true
-#   url: http://www.gstatic.com/generate_204
-#   interval: 30
+# SG:
+#   type: http
+#   url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
+#   path: "./proxy_provider/MAGIP-SG.yaml"
+#   interval: 300
+#   health-check:
+#     enable: true
+#     url: http://www.gstatic.com/generate_204
+#     interval: 30
 
-# https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-ID.yaml
+# https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
+#XUTS
 - name: XL XUTS BUG (WS ava.game.naver.com)
-  type: trojan
   server: ava.game.naver.com
   port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: vip-7.indoxray.top
+  servername: s7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS BUG (WS df.game.naver.com)
-  type: trojan
   server: df.game.naver.com
   port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: vip-7.indoxray.top
+  servername: s7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS BUG (WS investor.fb.com)
-  type: trojan
   server: investor.fb.com
   port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: vip-7.indoxray.top
+  servername: s7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS BUG (WC ava.game.naver.com)
-  type: trojan
   server: ava.game.naver.com
   port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: ava.game.naver.com.vip-7.indoxray.top
+  servername: ava.game.naver.com.s7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: ava.game.naver.com.vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS BUG (WC investor.fb.com)
-  type: trojan
   server: investor.fb.com
   port: 443
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: investor.fb.com.vip-7.indoxray.top
+  servername: investor.fb.com.s7.indoxray.top
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: investor.fb.com.vip-7.indoxray.top
+      Host: investor.fb.com.s7.indoxray.top
   udp: true
-- name: XL XUTS (SNI ive-upload.instagram.com)
-  server: vip-7.indoxray.top
+- name: XL XUTS (SNI live-upload.instagram.com)
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: ive-upload.instagram.com
+  servername: live-upload.instagram.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS (SNI graph.instagram.com)
-  server: vip-7.indoxray.top
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: graph.instagram.com
+  servername: graph.instagram.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS (SNI z-p15.www.instagram.com)
-  server: vip-7.indoxray.top
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: z-p15.www.instagram.com
+  servername: z-p15.www.instagram.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS (SNI graph.facebook.com)
-  server: vip-7.indoxray.top
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: graph.facebook.com
+  servername: graph.facebook.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS (SNI opensource.fb.com)
-  server: vip-7.indoxray.top
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: opensource.fb.com
+  servername: opensource.fb.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true
 - name: XL XUTS (SNI status.fb.com)
-  server: vip-7.indoxray.top
+  server: s7.indoxray.top
   port: 443
-  type: trojan
-  password: 594d1919-99cd-4002-aec3-0c07180b6c46
+  type: vmess
+  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: status.fb.com
+  servername: status.fb.com
   network: ws
   ws-opts:
-    path: /websocket-trojan
+    path: /websocket-vmess
     headers:
-      Host: vip-7.indoxray.top
+      Host: s7.indoxray.top
   udp: true

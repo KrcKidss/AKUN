@@ -12,107 +12,108 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
+#XUTS
 - name: XL XUTS BUG (WS ava.game.naver.com)
   server: ava.game.naver.com
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vip-8.indoxray.top
+  servername: vip-18.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS BUG (WS df.game.naver.com)
   server: df.game.naver.com
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vip-8.indoxray.top
+  servername: vip-18.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS BUG (WS investor.fb.com)
   server: investor.fb.com
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: vip-8.indoxray.top
+  servername: vip-18.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS BUG (WC ava.game.naver.com)
   server: ava.game.naver.com
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ava.game.naver.com.vip-8.indoxray.top
+  servername: ava.game.naver.com.vip-18.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS BUG (WC investor.fb.com)
   server: investor.fb.com
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: investor.fb.com.vip-8.indoxray.top
+  servername: investor.fb.com.vip-18.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: investor.fb.com.vip-8.indoxray.top
+      Host: investor.fb.com.vip-18.indoxray.top
   udp: true
-- name: XL XUTS (SNI ive-upload.instagram.com)
-  server: vip-8.indoxray.top
+- name: XL XUTS (SNI live-upload.instagram.com)
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: ive-upload.instagram.com
+  servername: live-upload.instagram.com
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS (SNI graph.instagram.com)
-  server: vip-8.indoxray.top
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
@@ -122,13 +123,13 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS (SNI z-p15.www.instagram.com)
-  server: vip-8.indoxray.top
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
@@ -138,13 +139,13 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS (SNI graph.facebook.com)
-  server: vip-8.indoxray.top
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
@@ -154,13 +155,13 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS (SNI opensource.fb.com)
-  server: vip-8.indoxray.top
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
@@ -170,13 +171,13 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true
 - name: XL XUTS (SNI status.fb.com)
-  server: vip-8.indoxray.top
+  server: vip-18.indoxray.top
   port: 443
   type: vmess
-  uuid: c9034c84-5623-432d-bd53-2715a298f093
+  uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
   alterId: 0
   cipher: auto
   tls: true
@@ -186,5 +187,5 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: vip-8.indoxray.top
+      Host: vip-18.indoxray.top
   udp: true

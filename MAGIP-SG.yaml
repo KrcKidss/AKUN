@@ -16,503 +16,287 @@ proxies:
   server: img.email1.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (img.email2.vidio.com)
   server: img.email2.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (img.email3.vidio.com)
   server: img.email3.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (quiz.int.vidio.com)
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (quiz.staging.vidio.com)
   server: quiz.staging.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (quiz.int.vidio.com)
   server: quiz.int.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (quiz.vidio.com )
   server: quiz.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (nontontv.vidio.com)
   server: nontontv.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (support.vidio.com )
   server: support.vidio.com
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.17.159.243)
   server: 104.17.159.243
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.17.159.243)
   server: 104.17.159.243
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.17.156.243)
   server: 104.17.156.243
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.22.5.240)
   server: 104.22.5.240
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.22.4.240)
   server: 104.22.4.240
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.20.9.155)
   server: 104.20.9.155
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (104.22.4.240)
   server: 104.22.4.240
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (172.67.5.14)
   server: 172.67.5.14
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true
 - name: XL VIDIO BUG (172.66.0.145)
   server: 172.66.0.145
   port: 443
   type: vmess
-<<<<<<< HEAD
   uuid: a2b4e1cc-4454-473f-a0f7-cedde92f0901
-=======
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
-<<<<<<< HEAD
   servername: vip-18.indoxray.top
-=======
-  servername: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-<<<<<<< HEAD
       Host: vip-18.indoxray.top
-=======
-      Host: s7.indoxray.top
->>>>>>> 8a7e4bf5f1c337bd8531a3abad495207a8306922
   udp: true

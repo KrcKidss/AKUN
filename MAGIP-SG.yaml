@@ -12,38 +12,6 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
-- name: XL XCV BUG (WC support.zoom.us)
-  server: support.zoom.us
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: support.zoom.us.s7.indoxray.top
-  udp: true
-- name: XL XCV BUG (SNI vplay.iflix.com)
-  server: s7.indoxray.top
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vplay.iflix.com
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
 - name: XL XCV BUG (WC support.zoom.us1)
   server: support.zoom.us
   port: 443

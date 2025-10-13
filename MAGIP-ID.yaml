@@ -12,8 +12,8 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
-- name: XL VIDIO BUG (img.email1.vidio.com)
-  server: img.email1.vidio.com
+- name: XL XCV BUG (WC support.zoom.us)
+  server: support.zoom.us
   port: 443
   type: vmess
   uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
@@ -21,15 +21,15 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: s7.indoxray.top
+  servername: support.zoom.us.s7.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: s7.indoxray.top
+      Host: support.zoom.us.s7.indoxray.top
   udp: true
-- name: XL VIDIO BUG (img.email2.vidio.com)
-  server: img.email2.vidio.com
+- name: XL XCV BUG (SNI vplay.iflix.com)
+  server: support.zoom.us
   port: 443
   type: vmess
   uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
@@ -37,263 +37,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (img.email3.vidio.com)
-  server: img.email3.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.int.vidio.com)
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.staging.vidio.com)
-  server: quiz.staging.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.int.vidio.com)
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (quiz.vidio.com )
-  server: quiz.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (nontontv.vidio.com)
-  server: nontontv.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (support.vidio.com )
-  server: support.vidio.com
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.159.243)
-  server: 104.17.159.243
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.159.243)
-  server: 104.17.159.243
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.17.156.243)
-  server: 104.17.156.243
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.5.240)
-  server: 104.22.5.240
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  server: 104.22.4.240
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.20.9.155)
-  server: 104.20.9.155
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (104.22.4.240)
-  server: 104.22.4.240
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (172.67.5.14)
-  server: 172.67.5.14
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
-  network: ws
-  ws-opts:
-    path: /websocket-vmess
-    headers:
-      Host: s7.indoxray.top
-  udp: true
-- name: XL VIDIO BUG (172.66.0.145)
-  server: 172.66.0.145
-  port: 443
-  type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: s7.indoxray.top
+  servername: vplay.iflix.com
   network: ws
   ws-opts:
     path: /websocket-vmess

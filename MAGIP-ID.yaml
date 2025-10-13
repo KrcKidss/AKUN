@@ -29,7 +29,7 @@ proxies:
       Host: support.zoom.us.s7.indoxray.top
   udp: true
 - name: XL XCV BUG (SNI vplay.iflix.com)
-  server: support.zoom.us
+  server: s7.indoxray.top
   port: 443
   type: vmess
   uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
@@ -43,4 +43,36 @@ proxies:
     path: /websocket-vmess
     headers:
       Host: s7.indoxray.top
+  udp: true
+- name: XL XCV BUG (WC support.zoom.us1)
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: d3e122fe-2615-42fe-9db0-24bac474c5fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: support.zoom.us.sgdo.ordervip.cloud
+  udp: true
+- name: XL XCV BUG (SNI vplay.iflix.com1)
+  server: sgdo.ordervip.cloud
+  port: 443
+  type: vmess
+  uuid: d3e122fe-2615-42fe-9db0-24bac474c5fd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vplay.iflix.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sgdo.ordervip.cloud
   udp: true

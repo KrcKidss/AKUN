@@ -12,6 +12,7 @@
 # https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
 
 proxies:
+#VMESS
 - name: XL XCV BUG (WC support.zoom.us1)
   server: support.zoom.us
   port: 443
@@ -41,6 +42,33 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
+    headers:
+      Host: sgdo.ordervip.cloud
+  udp: true
+#TROJAN
+- name: XL XUTS BUG (WC TR support.zoom.us)
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 92092922-f108-41fe-a266-47ac76ed30b3
+  skip-cert-verify: true
+  sni: support.zoom.us.sgdo.ordervip.cloud
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: support.zoom.us.sgdo.ordervip.cloud
+  udp: true
+- name: XL XUTS (SNI TR vplay.iflix.com)
+  server: sgdo.ordervip.cloud
+  port: 443
+  type: trojan
+  password: 92092922-f108-41fe-a266-47ac76ed30b3
+  skip-cert-verify: true
+  sni: vplay.iflix.com
+  network: ws
+  ws-opts:
+    path: /trojan-ws
     headers:
       Host: sgdo.ordervip.cloud
   udp: true

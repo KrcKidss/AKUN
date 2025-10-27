@@ -49,7 +49,7 @@ proxies:
   server: support.zoom.us
   port: 443
   type: vmess
-  uuid: d3e122fe-2615-42fe-9db0-24bac474c5fd
+  uuid: de45dfaf-03e8-49ea-952e-e755cca61e33
   alterId: 0
   cipher: auto
   tls: true
@@ -65,7 +65,7 @@ proxies:
   server: sgdo.ordervip.cloud
   port: 443
   type: vmess
-  uuid: d3e122fe-2615-42fe-9db0-24bac474c5fd
+  uuid: de45dfaf-03e8-49ea-952e-e755cca61e33
   alterId: 0
   cipher: auto
   tls: true

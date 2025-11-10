@@ -1,38 +1,25 @@
-# TEMPLATE CONFIG GIT
-# SG:
-#   type: http
-#   url: https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
-#   path: "./proxy_provider/MAGIP-SG.yaml"
-#   interval: 300
-#   health-check:
-#     enable: true
-#     url: http://www.gstatic.com/generate_204
-#     interval: 30
-
-# https://raw.githubusercontent.com/KrcKidss/AKUN/refs/heads/main/MAGIP-SG.yaml
-
 proxies:
 - name: XL XCV BUG (WC support.zoom.us)
   server: support.zoom.us
   port: 443
   type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  uuid: f7613255-312c-4897-a830-6234dd9a57c4
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.s7.indoxray.top
+  servername: support.zoom.us.vip-8.indoxray.top
   network: ws
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: support.zoom.us.s7.indoxray.top
+      Host: support.zoom.us.vip-8.indoxray.top
   udp: true
 - name: XL XCV BUG (SNI vplay.iflix.com)
-  server: s7.indoxray.top
+  server: vip-8.indoxray.top
   port: 443
   type: vmess
-  uuid: 514971a3-6444-4c2d-8c4b-e3b6d00ab3a9
+  uuid: f7613255-312c-4897-a830-6234dd9a57c4
   alterId: 0
   cipher: auto
   tls: true
@@ -42,65 +29,5 @@ proxies:
   ws-opts:
     path: /websocket-vmess
     headers:
-      Host: s7.indoxray.top
-  udp: true
-#VMESS
-- name: XL XCV BUG (WC support.zoom.us1)
-  server: support.zoom.us
-  port: 443
-  type: vmess
-  uuid: de45dfaf-03e8-49ea-952e-e755cca61e33
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: support.zoom.us.sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: support.zoom.us.sgdo.ordervip.cloud
-  udp: true
-- name: XL XCV BUG (SNI vplay.iflix.com1)
-  server: sgdo.ordervip.cloud
-  port: 443
-  type: vmess
-  uuid: de45dfaf-03e8-49ea-952e-e755cca61e33
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: vplay.iflix.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sgdo.ordervip.cloud
-  udp: true
-#TROJAN
-- name: XL XUTS BUG (WC TR support.zoom.us)
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 92092922-f108-41fe-a266-47ac76ed30b3
-  skip-cert-verify: true
-  sni: support.zoom.us.sgdo.ordervip.cloud
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: support.zoom.us.sgdo.ordervip.cloud
-  udp: true
-- name: XL XUTS (SNI TR vplay.iflix.com)
-  server: sgdo.ordervip.cloud
-  port: 443
-  type: trojan
-  password: 92092922-f108-41fe-a266-47ac76ed30b3
-  skip-cert-verify: true
-  sni: vplay.iflix.com
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sgdo.ordervip.cloud
+      Host: vip-8.indoxray.top
   udp: true

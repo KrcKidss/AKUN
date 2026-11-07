@@ -1,0 +1,62 @@
+proxies:
+  - name: END14
+    server: 13.249.231.85
+    port: 443
+    type: vmess
+    uuid: 7e7a3a63-d861-4f73-ae79-f9f373611f36
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: d3qk6h6vtnlsji.cloudfront.net
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: d3qk6h6vtnlsji.cloudfront.net
+    udp: true
+  - name: End21Nov Iflix 1
+    server: ch4.asisten.eu.cc
+    port: 443
+    type: vless
+    uuid: 181181fd-6c49-408a-a7e0-fe9ea4a3cca5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vplay.iflix.com
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: vplay.iflix.com
+    udp: true
+  - name: End21Nov Iflix 2
+    server: ch4.asisten.eu.cc
+    port: 443
+    type: vless
+    uuid: 181181fd-6c49-408a-a7e0-fe9ea4a3cca5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: live.iflix.com
+    udp: true
+  - name: End21Nov 2.1
+    server: ch4.asisten.eu.cc
+    port: 443
+    type: vless
+    uuid: 181181fd-6c49-408a-a7e0-fe9ea4a3cca5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: live.iflix.com
+    network: ws
+    ws-opts:
+      path: /websocket-vless
+      headers:
+        Host: ch4.asisten.eu.cc
+    udp: true
